@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative & Absolute CSS</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+        #box-1{
+            background-color: sandybrown;
+        }
+        #box-2{
+            background-color: seagreen;
+            position: absolute;
+            text-align: center;
+            border-radius: 50%;
+            right: -120px;
+            top: 0;
+            /* position: relative;
+            top: -100px;
+            left: 300px; */
+        }
+        #box-3{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore Relative & Absolute One More Time</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, eveniet assumenda! Vitae qui soluta expedita iste accusantium repudiandae ad quae quisquam tenetur inventore. Earum, quo architecto voluptates laudantium sapiente eaque?</p>
+    <div class="container">
+        <div class="box" id="box-1">Box-1</div>
+        <div class="box" id="box-2">Box-2</div>
+        <div class="box" id="box-3">Box-3</div>
+    </div>
+</body>
+</html>
